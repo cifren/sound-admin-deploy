@@ -31,8 +31,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --config ./src/webpack.config.js --watch",
-    "start": "node index.js"
+    "webpack": "webpack --config ./src/webpack.config.js",
+    "start": "npm run webpack && node index.js"
   },
   "author": "",
   "license": "ISC"
